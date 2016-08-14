@@ -1,0 +1,1 @@
+link ../../../Moscapsule/mosquitto/lib/memory_mosq.h

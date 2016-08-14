@@ -1,0 +1,1186 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E583D991B4BD8F7468F2FE /* thread_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = D8CA867FE2732AA3A9D5FB94 /* thread_mosq.c */; };
+		03F71BAB8EA347A78AB60CF9 /* Pods-mALS test-MSWeakTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EBAACC86E7BFF7E9C6256F /* Pods-mALS test-MSWeakTimer-dummy.m */; };
+		04519E45CEC710329F5E6A6E /* Moscapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F7C14A31253B4CA6C8DAE3 /* Moscapsule.swift */; };
+		0720501FC6231527E37CFE5F /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC90FD7B6493A18CD7CEBBB /* config.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0AA695A9F094FBE27027E64C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DFA39BC3D956204B49085D /* Foundation.framework */; };
+		0F7613022C1A5A950F719C78 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5ABE97FD1A8F18F41B9520 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		13B3E22CBE95226CFD07CB61 /* logging_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 863FC0EA33DA097390347DAE /* logging_mosq.c */; };
+		1ECCEC37B98895AF8C19C226 /* read_handle_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 18BBD50C015D33227F33AF89 /* read_handle_client.c */; };
+		21E906F6235ECF9CF032DD73 /* will_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 874F63FA6E65249A5667879E /* will_mosq.c */; };
+		26385DEE17BCA8D2965CEDED /* Pods-mALS test-Moscapsule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DD96744CBAFEDFD0C7F4EB /* Pods-mALS test-Moscapsule-dummy.m */; };
+		2C2C2C9DDB4FD1FC63E97F78 /* net_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 3133ACE1B6D39235D5572AF1 /* net_mosq.c */; };
+		311564BD51FB56F11A5F3F10 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D19522120DDBE588901AF7B0 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		31481655D147D1EE92524A41 /* send_client_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 96224B6862E8F997419ED1BC /* send_client_mosq.c */; };
+		33B8E7FDC27651FC8BCA0018 /* will_mosq.h in Headers */ = {isa = PBXBuildFile; fileRef = 775B60564EB43923603012E5 /* will_mosq.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33EC4647974435ACE20CFB41 /* Pods-mALS test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9C76D5C07365F5733F4379 /* Pods-mALS test-dummy.m */; };
+		36299F14A95F27D90AD68AAE /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B0F6A61FB68F5191D47229 /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3AB15F30335277C2BB066265 /* MosquittoCallbackBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D53E4A89E1661FFDB77D77 /* MosquittoCallbackBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C7B1E304044A3E77526EF48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DFA39BC3D956204B49085D /* Foundation.framework */; };
+		4239AD4F77921800D5D05CB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DFA39BC3D956204B49085D /* Foundation.framework */; };
+		4B4D24420493E10889DA54CD /* net_mosq.h in Headers */ = {isa = PBXBuildFile; fileRef = 1665D117F6AEBF1B04BD150C /* net_mosq.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4BD1A8DC8EBE7F2BE7FC8171 /* messages_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = A68035E0C80063071EB6EEC0 /* messages_mosq.c */; };
+		50B3A332119F7E1720717CFC /* MSWeakTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = A438AC724343052FBEADD11E /* MSWeakTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		528CE0EAD3B82E4182FE1376 /* util_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 08E60E8B73FFB0A6EB8399B6 /* util_mosq.c */; };
+		57963A83AC493213B3995972 /* send_mosq.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A40F48C62F69E7EF1FE7A0 /* send_mosq.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59FDD195C503B027BAD067F4 /* socks_mosq.h in Headers */ = {isa = PBXBuildFile; fileRef = 005DEBE6E3F3166BDFEEA828 /* socks_mosq.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CE3619094252E2BAFD9A968 /* read_handle.c in Sources */ = {isa = PBXBuildFile; fileRef = EFC7176FE10E7F268453660F /* read_handle.c */; };
+		61D0C3788BAE290344E443A1 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C168BB45EA6D248254E3285 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B4F2F11BE237CEF90F364F0 /* mosquitto.h in Headers */ = {isa = PBXBuildFile; fileRef = 7140597E9B078B0E8F636590 /* mosquitto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DA0D9C045C9B5D867C4DB9C /* srv_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C0727C32443C9BCE2E37B89 /* srv_mosq.c */; };
+		6DA640DB7899E3DC097FB6F3 /* Pods-mALS test-CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CE27EFD58028DBEA32512C6 /* Pods-mALS test-CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7240F811B306EED6A1DB916C /* memory_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = E3BB1289CEB7D40A96D3390F /* memory_mosq.c */; };
+		7863B9668A2A9052793EBF9B /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 583BEE1864B6111CAA28E84D /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E7DBFF29FC720337DDAB033 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE072D17CA17A3D28887A2C /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		876454047522BD0BA734250B /* dummypthread.h in Headers */ = {isa = PBXBuildFile; fileRef = 498BD03DBA970BFD02EEF4A4 /* dummypthread.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A44E79900DC0295F9FE00B7 /* mqtt3_protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B64F1F61F42CDEED57F572 /* mqtt3_protocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F4D97BEF0D1D2ADEE442A38 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECEEE33F8AA0948FF1FC363 /* AsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91B5CA1C2C27D8A249A24B24 /* read_handle.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DD2BD2627DF34EE24EFE5F /* read_handle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94C0AE5E097C3ADCB7DF1FBD /* tls_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 58CEB9DE8D672E07B97AEE96 /* tls_mosq.c */; };
+		9BC8936D51E05D3BBF236C68 /* Pods-mALS test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 231C508C40E44CC321830001 /* Pods-mALS test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C3D9F911C6F79EFAF59A756 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DFA39BC3D956204B49085D /* Foundation.framework */; };
+		9D102E8778AF440CE6DFCA13 /* memory_mosq.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F188655B65F508ADF9921CD /* memory_mosq.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A26D00BA9DC16B93996F048E /* MSWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB01CD4DF5EF681B53EEC50 /* MSWeakTimer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A5F396956A7EA63E9072B9C1 /* Pods-mALS test-CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24C3BA80A25F70A9CCC9C7 /* Pods-mALS test-CocoaAsyncSocket-dummy.m */; };
+		AFFEB52098E98C07D590F9F1 /* read_handle_shared.c in Sources */ = {isa = PBXBuildFile; fileRef = 250F94E1E0F2F35E41311281 /* read_handle_shared.c */; };
+		B184533564854AF8DBCFBD59 /* Pods-mALS test-MSWeakTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DB767EA8C968703A33E46C /* Pods-mALS test-MSWeakTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2BF0FB6407DDE77697A2C74 /* logging_mosq.h in Headers */ = {isa = PBXBuildFile; fileRef = 71231C150ECAE86E5E0C5C98 /* logging_mosq.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3C914EF573684DD4B3C968C /* tls_mosq.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA6832DDB803E113335F63D /* tls_mosq.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B48CBFD1F5AEE03B3921A8F9 /* mosquitto_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A21728468C5DDE7CF7AA6CF /* mosquitto_internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B5286CBB061E14B4D9890EE8 /* messages_mosq.h in Headers */ = {isa = PBXBuildFile; fileRef = 322744A600565D236EA4FA23 /* messages_mosq.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8B734CCFFC1751533E776E9 /* time_mosq.h in Headers */ = {isa = PBXBuildFile; fileRef = 6975B229CE4BD138A6441433 /* time_mosq.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D4AEAB5BC3CF9FCBE9247233 /* AsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = B7BEEA3CE03349044226F0B2 /* AsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8017D5C2FA7E96ABC98A422 /* send_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D70BA835E838FF17717BF35 /* send_mosq.c */; };
+		DC4F5564ABB35700B414CF4F /* socks_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D73696D89FDFFAC03EA2F18 /* socks_mosq.c */; };
+		DE19B6F783D92831A0910E42 /* util_mosq.h in Headers */ = {isa = PBXBuildFile; fileRef = 166B0239C7597988C8E0228C /* util_mosq.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7BC31207131662D5AE432E0 /* mosquitto.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D028DF95F52B46C7AD0FF3D /* mosquitto.c */; };
+		E8517828E9108EA34F4DE6B3 /* MosquittoCallbackBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7EAFFD8DFF7E452E5765FF /* MosquittoCallbackBridge.m */; };
+		E8FD7FD41228C8B1F5F309E5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399A0F16F209A8CCE87DB500 /* Security.framework */; };
+		EC979B48448BC91C1516623A /* Pods-mALS test-Moscapsule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C1187D7F414B14392969BC /* Pods-mALS test-Moscapsule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC4A0D2C7D9178BA7D844AFB /* time_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = FE8DF4C1D1C7E1451ED95B2D /* time_mosq.c */; };
+		FDF171120DFD3528EA2D92F0 /* Moscapsule.h in Headers */ = {isa = PBXBuildFile; fileRef = BD477C1A5A4280BA975B9998 /* Moscapsule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE4055213C320630B8D5582D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0234EDF96E81C956954169 /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F5A55CE9C9AEA12022584E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 811F71BD3B8C6E2679D0BE56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80D1F57397DBD8C56A25118;
+			remoteInfo = "Pods-mALS test-MSWeakTimer";
+		};
+		329E2877176FC84DEEE7EB3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 811F71BD3B8C6E2679D0BE56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEC8F59BD8F25C0B7626FCD3;
+			remoteInfo = "Pods-mALS test-Moscapsule";
+		};
+		B57AD7F939A9BB9EC71E8D5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 811F71BD3B8C6E2679D0BE56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4E9BD536D95F1C6192EE0A3;
+			remoteInfo = "Pods-mALS test-CocoaAsyncSocket";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0010BFFC3208FD67CA1F5219 /* cmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmac.h; path = "include-ios/openssl/cmac.h"; sourceTree = "<group>"; };
+		005DEBE6E3F3166BDFEEA828 /* socks_mosq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socks_mosq.h; path = mosquitto/lib/socks_mosq.h; sourceTree = "<group>"; };
+		00BFB56945B57B14B5D9DFE5 /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4.h; path = "include-ios/openssl/rc4.h"; sourceTree = "<group>"; };
+		05E840ECBA4D2C6B23E03E90 /* srtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srtp.h; path = "include-ios/openssl/srtp.h"; sourceTree = "<group>"; };
+		069CC7D5F81EA583B19FB70E /* asn1t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1t.h; path = "include-ios/openssl/asn1t.h"; sourceTree = "<group>"; };
+		0702BB6DE360140F977D4576 /* pem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem.h; path = "include-ios/openssl/pem.h"; sourceTree = "<group>"; };
+		07F2E3E2AE97A6951532017B /* obj_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = obj_mac.h; path = "include-ios/openssl/obj_mac.h"; sourceTree = "<group>"; };
+		08E60E8B73FFB0A6EB8399B6 /* util_mosq.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = util_mosq.c; path = mosquitto/lib/util_mosq.c; sourceTree = "<group>"; };
+		0CE27EFD58028DBEA32512C6 /* Pods-mALS test-CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mALS test-CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		0FF901D091BE3A57B29EC87F /* Moscapsule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moscapsule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1067FDED093E35AF44DE4AC2 /* Pods-mALS test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mALS test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1131C46037490DBB6195EDDC /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = "lib-ios/libssl.a"; sourceTree = "<group>"; };
+		14ADDE7754EEC2CC5B18DE78 /* whrlpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = whrlpool.h; path = "include-ios/openssl/whrlpool.h"; sourceTree = "<group>"; };
+		14DD2BD2627DF34EE24EFE5F /* read_handle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = read_handle.h; path = mosquitto/lib/read_handle.h; sourceTree = "<group>"; };
+		1665D117F6AEBF1B04BD150C /* net_mosq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = net_mosq.h; path = mosquitto/lib/net_mosq.h; sourceTree = "<group>"; };
+		166B0239C7597988C8E0228C /* util_mosq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = util_mosq.h; path = mosquitto/lib/util_mosq.h; sourceTree = "<group>"; };
+		1860006635284F6E77D91A07 /* Pods-mALS test-MSWeakTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-mALS test-MSWeakTimer.modulemap"; sourceTree = "<group>"; };
+		18950486F369F1D0ADB9DC31 /* Pods-mALS test-MSWeakTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mALS test-MSWeakTimer.xcconfig"; sourceTree = "<group>"; };
+		18BBD50C015D33227F33AF89 /* read_handle_client.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = read_handle_client.c; path = mosquitto/lib/read_handle_client.c; sourceTree = "<group>"; };
+		192F1DF92EA8A28A2F099133 /* Pods-mALS test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mALS test-resources.sh"; sourceTree = "<group>"; };
+		19B0B5BEBB31D526E4396BBE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		19B0F6A61FB68F5191D47229 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AsyncUdpSocket.m; path = RunLoop/AsyncUdpSocket.m; sourceTree = "<group>"; };
+		1ACAA784276D864980EF2480 /* ebcdic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ebcdic.h; path = "include-ios/openssl/ebcdic.h"; sourceTree = "<group>"; };
+		1BEFAB08D7FC7C32A9FBE7E7 /* dso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dso.h; path = "include-ios/openssl/dso.h"; sourceTree = "<group>"; };
+		1E4FBE9141E0C4BFA5F75B5B /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des.h; path = "include-ios/openssl/des.h"; sourceTree = "<group>"; };
+		1E9A39C22D6AF7DA40EF3E1C /* pkcs7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs7.h; path = "include-ios/openssl/pkcs7.h"; sourceTree = "<group>"; };
+		1EBE59D46457519782952A8E /* kssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kssl.h; path = "include-ios/openssl/kssl.h"; sourceTree = "<group>"; };
+		1FA6832DDB803E113335F63D /* tls_mosq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tls_mosq.h; path = mosquitto/lib/tls_mosq.h; sourceTree = "<group>"; };
+		20BD48D6D20837E9486F0368 /* ssl23.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl23.h; path = "include-ios/openssl/ssl23.h"; sourceTree = "<group>"; };
+		21408DB6939AFCF58515D8C4 /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf.h; path = "include-ios/openssl/conf.h"; sourceTree = "<group>"; };
+		22F7C14A31253B4CA6C8DAE3 /* Moscapsule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moscapsule.swift; path = Moscapsule/Moscapsule.swift; sourceTree = "<group>"; };
+		231C508C40E44CC321830001 /* Pods-mALS test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mALS test-umbrella.h"; sourceTree = "<group>"; };
+		250F94E1E0F2F35E41311281 /* read_handle_shared.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = read_handle_shared.c; path = mosquitto/lib/read_handle_shared.c; sourceTree = "<group>"; };
+		2642177CD2BA3B391E1E5FB5 /* asn1_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1_mac.h; path = "include-ios/openssl/asn1_mac.h"; sourceTree = "<group>"; };
+		2724617AB9271677DE82272B /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rand.h; path = "include-ios/openssl/rand.h"; sourceTree = "<group>"; };
+		2A5A0407467BBAAECB13B75D /* asn1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1.h; path = "include-ios/openssl/asn1.h"; sourceTree = "<group>"; };
+		2C9A7E97AE76E4A224F4635A /* ssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl.h; path = "include-ios/openssl/ssl.h"; sourceTree = "<group>"; };
+		2D028DF95F52B46C7AD0FF3D /* mosquitto.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mosquitto.c; path = mosquitto/lib/mosquitto.c; sourceTree = "<group>"; };
+		2E92AAE227AB812C314BC85F /* e_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = e_os2.h; path = "include-ios/openssl/e_os2.h"; sourceTree = "<group>"; };
+		2EF78A8FF40F094A8AC61538 /* Pods-mALS test-Moscapsule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mALS test-Moscapsule.xcconfig"; sourceTree = "<group>"; };
+		300667B5FC06A7C542CFE097 /* opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslconf.h; path = "include-ios/openssl/opensslconf.h"; sourceTree = "<group>"; };
+		3133ACE1B6D39235D5572AF1 /* net_mosq.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = net_mosq.c; path = mosquitto/lib/net_mosq.c; sourceTree = "<group>"; };
+		322744A600565D236EA4FA23 /* messages_mosq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = messages_mosq.h; path = mosquitto/lib/messages_mosq.h; sourceTree = "<group>"; };
+		32E0788F8BF49242BC15E2B4 /* x509_vfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509_vfy.h; path = "include-ios/openssl/x509_vfy.h"; sourceTree = "<group>"; };
+		3339950C7F116AB8DB1EF39C /* x509v3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509v3.h; path = "include-ios/openssl/x509v3.h"; sourceTree = "<group>"; };
+		3421392B9524045B51A2CD4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376FC0491300E660B6099C3D /* ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdh.h; path = "include-ios/openssl/ecdh.h"; sourceTree = "<group>"; };
+		394CEE2DBC7D63117300408E /* ocsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocsp.h; path = "include-ios/openssl/ocsp.h"; sourceTree = "<group>"; };
+		399A0F16F209A8CCE87DB500 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		39EBAACC86E7BFF7E9C6256F /* Pods-mALS test-MSWeakTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mALS test-MSWeakTimer-dummy.m"; sourceTree = "<group>"; };
+		3A3330FC201D66E16E312784 /* seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = seed.h; path = "include-ios/openssl/seed.h"; sourceTree = "<group>"; };
+		3ECEEE33F8AA0948FF1FC363 /* AsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = RunLoop/AsyncSocket.h; sourceTree = "<group>"; };
+		4378BFB99C8AF92370E38F70 /* cms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cms.h; path = "include-ios/openssl/cms.h"; sourceTree = "<group>"; };
+		43982519FE76BBB991261564 /* lhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lhash.h; path = "include-ios/openssl/lhash.h"; sourceTree = "<group>"; };
+		43A40F48C62F69E7EF1FE7A0 /* send_mosq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = send_mosq.h; path = mosquitto/lib/send_mosq.h; sourceTree = "<group>"; };
+		43D0C3F9FE52603335A3B0BF /* mdc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mdc2.h; path = "include-ios/openssl/mdc2.h"; sourceTree = "<group>"; };
+		43F38250A27180A547522E0B /* comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = comp.h; path = "include-ios/openssl/comp.h"; sourceTree = "<group>"; };
+		498BD03DBA970BFD02EEF4A4 /* dummypthread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dummypthread.h; path = mosquitto/lib/dummypthread.h; sourceTree = "<group>"; };
+		4B6DD9E350B76618EF3FBA93 /* Pods-mALS test-CocoaAsyncSocket-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mALS test-CocoaAsyncSocket-Private.xcconfig"; sourceTree = "<group>"; };
+		4D73696D89FDFFAC03EA2F18 /* socks_mosq.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = socks_mosq.c; path = mosquitto/lib/socks_mosq.c; sourceTree = "<group>"; };
+		4ECFE951B7D410D38C51D355 /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ossl_typ.h; path = "include-ios/openssl/ossl_typ.h"; sourceTree = "<group>"; };
+		50BD21987A7FF8D5B73B6BC6 /* Pods-mALS test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mALS test-acknowledgements.plist"; sourceTree = "<group>"; };
+		56140DCF7EF99921318FA705 /* krb5_asn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = krb5_asn.h; path = "include-ios/openssl/krb5_asn.h"; sourceTree = "<group>"; };
+		562F33F157A9E72818573EE9 /* Pods-mALS test-Moscapsule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-mALS test-Moscapsule.modulemap"; sourceTree = "<group>"; };
+		56DB27D100D792CEAC715CEC /* MSWeakTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSWeakTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DD96744CBAFEDFD0C7F4EB /* Pods-mALS test-Moscapsule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mALS test-Moscapsule-dummy.m"; sourceTree = "<group>"; };
+		57D53E4A89E1661FFDB77D77 /* MosquittoCallbackBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MosquittoCallbackBridge.h; path = Moscapsule/MosquittoCallbackBridge.h; sourceTree = "<group>"; };
+		583BEE1864B6111CAA28E84D /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		58CEB9DE8D672E07B97AEE96 /* tls_mosq.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = tls_mosq.c; path = mosquitto/lib/tls_mosq.c; sourceTree = "<group>"; };
+		5926C217E50F5B8B74CD81B4 /* Pods-mALS test-CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-mALS test-CocoaAsyncSocket.modulemap"; sourceTree = "<group>"; };
+		5CEBCE397B6B438691274E7B /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = "include-ios/openssl/buffer.h"; sourceTree = "<group>"; };
+		5D70BA835E838FF17717BF35 /* send_mosq.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = send_mosq.c; path = mosquitto/lib/send_mosq.c; sourceTree = "<group>"; };
+		5E465DAB8758F4100EC42660 /* Pods-mALS test-Moscapsule-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mALS test-Moscapsule-Private.xcconfig"; sourceTree = "<group>"; };
+		5FC90FD7B6493A18CD7CEBBB /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = Moscapsule/config.h; sourceTree = "<group>"; };
+		62DB767EA8C968703A33E46C /* Pods-mALS test-MSWeakTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mALS test-MSWeakTimer-umbrella.h"; sourceTree = "<group>"; };
+		63C1187D7F414B14392969BC /* Pods-mALS test-Moscapsule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mALS test-Moscapsule-umbrella.h"; sourceTree = "<group>"; };
+		65D2DECA91BCE9572638DBB0 /* bn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bn.h; path = "include-ios/openssl/bn.h"; sourceTree = "<group>"; };
+		664E0F14314884CE2806F62A /* des_old.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des_old.h; path = "include-ios/openssl/des_old.h"; sourceTree = "<group>"; };
+		68559CCB5B1FF4F57C671BCC /* dtls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtls1.h; path = "include-ios/openssl/dtls1.h"; sourceTree = "<group>"; };
+		6975B229CE4BD138A6441433 /* time_mosq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = time_mosq.h; path = mosquitto/lib/time_mosq.h; sourceTree = "<group>"; };
+		6A7A48221AAF35D3CB91D167 /* evp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = evp.h; path = "include-ios/openssl/evp.h"; sourceTree = "<group>"; };
+		6D95C4042AD10BAE8B632496 /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto.h; path = "include-ios/openssl/crypto.h"; sourceTree = "<group>"; };
+		6EC27C5F43CE05B0DDDE29E5 /* pqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pqueue.h; path = "include-ios/openssl/pqueue.h"; sourceTree = "<group>"; };
+		71231C150ECAE86E5E0C5C98 /* logging_mosq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = logging_mosq.h; path = mosquitto/lib/logging_mosq.h; sourceTree = "<group>"; };
+		7140597E9B078B0E8F636590 /* mosquitto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mosquitto.h; path = mosquitto/lib/mosquitto.h; sourceTree = "<group>"; };
+		71488BDEDA9716C56BF323BA /* objects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = objects.h; path = "include-ios/openssl/objects.h"; sourceTree = "<group>"; };
+		75D45A245546CFD015F7473D /* Pods-mALS test-MSWeakTimer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mALS test-MSWeakTimer-Private.xcconfig"; sourceTree = "<group>"; };
+		7654CAA34F14E2DCA34AD09C /* safestack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = safestack.h; path = "include-ios/openssl/safestack.h"; sourceTree = "<group>"; };
+		775B60564EB43923603012E5 /* will_mosq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = will_mosq.h; path = mosquitto/lib/will_mosq.h; sourceTree = "<group>"; };
+		7888FE8B0AF21D6B1C0E334E /* ts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ts.h; path = "include-ios/openssl/ts.h"; sourceTree = "<group>"; };
+		7B9C48D64A4174215DCE7A5A /* tls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tls1.h; path = "include-ios/openssl/tls1.h"; sourceTree = "<group>"; };
+		7C0727C32443C9BCE2E37B89 /* srv_mosq.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = srv_mosq.c; path = mosquitto/lib/srv_mosq.c; sourceTree = "<group>"; };
+		7DC083291F24704AD74D1B63 /* ssl3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl3.h; path = "include-ios/openssl/ssl3.h"; sourceTree = "<group>"; };
+		7F0E5EFB9984BC10491C4D99 /* ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ec.h; path = "include-ios/openssl/ec.h"; sourceTree = "<group>"; };
+		7F188655B65F508ADF9921CD /* memory_mosq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memory_mosq.h; path = mosquitto/lib/memory_mosq.h; sourceTree = "<group>"; };
+		8116809B5F79256676E8D3BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82406442A4947B4A22650509 /* opensslv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslv.h; path = "include-ios/openssl/opensslv.h"; sourceTree = "<group>"; };
+		8393833C36F86F52CC81CF6B /* Pods-mALS test-CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mALS test-CocoaAsyncSocket.xcconfig"; sourceTree = "<group>"; };
+		83DBCA4E603C78FE2BA3C575 /* symhacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symhacks.h; path = "include-ios/openssl/symhacks.h"; sourceTree = "<group>"; };
+		84289D6F3F6D997A8D601747 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863FC0EA33DA097390347DAE /* logging_mosq.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = logging_mosq.c; path = mosquitto/lib/logging_mosq.c; sourceTree = "<group>"; };
+		86B1F665E94343B4535019BE /* rsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rsa.h; path = "include-ios/openssl/rsa.h"; sourceTree = "<group>"; };
+		86D20FF793300A65422B96EE /* Pods_mALS_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mALS_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8738068B21DB42EB0D156958 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		874F63FA6E65249A5667879E /* will_mosq.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = will_mosq.c; path = mosquitto/lib/will_mosq.c; sourceTree = "<group>"; };
+		87FEE7ABE4D7AA1F139454C4 /* ui_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui_compat.h; path = "include-ios/openssl/ui_compat.h"; sourceTree = "<group>"; };
+		8991E752629AFC4CEB74B092 /* modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = modes.h; path = "include-ios/openssl/modes.h"; sourceTree = "<group>"; };
+		8A21728468C5DDE7CF7AA6CF /* mosquitto_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mosquitto_internal.h; path = mosquitto/lib/mosquitto_internal.h; sourceTree = "<group>"; };
+		8B3ADE55158781D86F5B886C /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = "include-ios/openssl/sha.h"; sourceTree = "<group>"; };
+		8B7082627C7E1E473ACEB705 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8746CE56EAAD0204533A10 /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = "include-ios/openssl/md5.h"; sourceTree = "<group>"; };
+		8F820B6DB1CD34F58EDE7055 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = "include-ios/openssl/hmac.h"; sourceTree = "<group>"; };
+		903E537FE5DEA643DFE86D84 /* err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = err.h; path = "include-ios/openssl/err.h"; sourceTree = "<group>"; };
+		96224B6862E8F997419ED1BC /* send_client_mosq.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = send_client_mosq.c; path = mosquitto/lib/send_client_mosq.c; sourceTree = "<group>"; };
+		97451D26C31C24A89C97CBEA /* conf_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf_api.h; path = "include-ios/openssl/conf_api.h"; sourceTree = "<group>"; };
+		98B64F1F61F42CDEED57F572 /* mqtt3_protocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mqtt3_protocol.h; path = mosquitto/lib/mqtt3_protocol.h; sourceTree = "<group>"; };
+		9C168BB45EA6D248254E3285 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		9C5ABE97FD1A8F18F41B9520 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		9DED2DC759B48A7D8ADA0193 /* Pods-mALS test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mALS test.debug.xcconfig"; sourceTree = "<group>"; };
+		A08531E26F68BA1C8CAF73ED /* idea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = idea.h; path = "include-ios/openssl/idea.h"; sourceTree = "<group>"; };
+		A246A84CF54F93562033939B /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = "include-ios/openssl/stack.h"; sourceTree = "<group>"; };
+		A2A62E72DFF3946C2222F396 /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ripemd.h; path = "include-ios/openssl/ripemd.h"; sourceTree = "<group>"; };
+		A38300293BC7EDD08D83FCB1 /* srp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srp.h; path = "include-ios/openssl/srp.h"; sourceTree = "<group>"; };
+		A438AC724343052FBEADD11E /* MSWeakTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSWeakTimer.h; sourceTree = "<group>"; };
+		A68035E0C80063071EB6EEC0 /* messages_mosq.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = messages_mosq.c; path = mosquitto/lib/messages_mosq.c; sourceTree = "<group>"; };
+		AAB01CD4DF5EF681B53EEC50 /* MSWeakTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSWeakTimer.m; sourceTree = "<group>"; };
+		AB0234EDF96E81C956954169 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		AC07F5099F4ADBF8BD6C0BFE /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = "include-ios/openssl/blowfish.h"; sourceTree = "<group>"; };
+		AEFA11ECA0A8BD883C7D714F /* pem2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem2.h; path = "include-ios/openssl/pem2.h"; sourceTree = "<group>"; };
+		AF4377EC829DEC5376CA32AA /* Pods-mALS test-CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mALS test-CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		AFE072D17CA17A3D28887A2C /* AsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = RunLoop/AsyncSocket.m; sourceTree = "<group>"; };
+		B3544E3A4DB72994BDF46BB0 /* Pods-mALS test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mALS test.release.xcconfig"; sourceTree = "<group>"; };
+		B49D4464392955D68003396E /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = "include-ios/openssl/aes.h"; sourceTree = "<group>"; };
+		B4AAC7AF65B94726B102012A /* ui.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui.h; path = "include-ios/openssl/ui.h"; sourceTree = "<group>"; };
+		B4FAE721EC19D9FACE3BF1ED /* engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = engine.h; path = "include-ios/openssl/engine.h"; sourceTree = "<group>"; };
+		B517D6C80ECAE8EF1133608D /* dsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dsa.h; path = "include-ios/openssl/dsa.h"; sourceTree = "<group>"; };
+		B7BEEA3CE03349044226F0B2 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AsyncUdpSocket.h; path = RunLoop/AsyncUdpSocket.h; sourceTree = "<group>"; };
+		B8DFA39BC3D956204B49085D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA5757DD32724BCEED918F8B /* Pods-mALS test-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mALS test-environment.h"; sourceTree = "<group>"; };
+		BC24C3BA80A25F70A9CCC9C7 /* Pods-mALS test-CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mALS test-CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		BD477C1A5A4280BA975B9998 /* Moscapsule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Moscapsule.h; path = Moscapsule/Moscapsule.h; sourceTree = "<group>"; };
+		BD7BE6DD58CC14231DEE9028 /* md4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md4.h; path = "include-ios/openssl/md4.h"; sourceTree = "<group>"; };
+		BE9C76D5C07365F5733F4379 /* Pods-mALS test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mALS test-dummy.m"; sourceTree = "<group>"; };
+		BFD790BB70FC5ED2A8ADE581 /* cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cast.h; path = "include-ios/openssl/cast.h"; sourceTree = "<group>"; };
+		C322CFED8830D74BE6EA32A8 /* rc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc2.h; path = "include-ios/openssl/rc2.h"; sourceTree = "<group>"; };
+		C891BA12E5B1F0E6088C6EA4 /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = "include-ios/openssl/ecdsa.h"; sourceTree = "<group>"; };
+		CC7EAFFD8DFF7E452E5765FF /* MosquittoCallbackBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MosquittoCallbackBridge.m; path = Moscapsule/MosquittoCallbackBridge.m; sourceTree = "<group>"; };
+		D0A3038BBC1AC287756FA131 /* Pods-mALS test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-mALS test.modulemap"; sourceTree = "<group>"; };
+		D19522120DDBE588901AF7B0 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		D3556A364F6EF7008CEE2E30 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = "lib-ios/libcrypto.a"; sourceTree = "<group>"; };
+		D8725BB6463B3C57AFE967C7 /* Pods-mALS test-MSWeakTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mALS test-MSWeakTimer-prefix.pch"; sourceTree = "<group>"; };
+		D8CA867FE2732AA3A9D5FB94 /* thread_mosq.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = thread_mosq.c; path = mosquitto/lib/thread_mosq.c; sourceTree = "<group>"; };
+		DCD8BFC3939AF3DEEF3386A0 /* txt_db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = txt_db.h; path = "include-ios/openssl/txt_db.h"; sourceTree = "<group>"; };
+		DCEF57AAC57A7A2223B616DA /* Pods-mALS test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mALS test-frameworks.sh"; sourceTree = "<group>"; };
+		DF0B9E695FF782BA2999F854 /* ssl2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl2.h; path = "include-ios/openssl/ssl2.h"; sourceTree = "<group>"; };
+		E3BB1289CEB7D40A96D3390F /* memory_mosq.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = memory_mosq.c; path = mosquitto/lib/memory_mosq.c; sourceTree = "<group>"; };
+		E40C86CFDDF02EFC1B2931C5 /* x509.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509.h; path = "include-ios/openssl/x509.h"; sourceTree = "<group>"; };
+		E74D364B725E5B5D4DB92632 /* pkcs12.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs12.h; path = "include-ios/openssl/pkcs12.h"; sourceTree = "<group>"; };
+		E8726A611BAECABFB3409130 /* bio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bio.h; path = "include-ios/openssl/bio.h"; sourceTree = "<group>"; };
+		EC1BEF0BC4D3A3CB8CF250D5 /* Pods-mALS test-Moscapsule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mALS test-Moscapsule-prefix.pch"; sourceTree = "<group>"; };
+		EFC7176FE10E7F268453660F /* read_handle.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = read_handle.c; path = mosquitto/lib/read_handle.c; sourceTree = "<group>"; };
+		F2C32A8A1B00B5CE7A0E5BD1 /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = camellia.h; path = "include-ios/openssl/camellia.h"; sourceTree = "<group>"; };
+		F2CD950CF1BBE1DA1E2AE7C3 /* dh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dh.h; path = "include-ios/openssl/dh.h"; sourceTree = "<group>"; };
+		FE8DF4C1D1C7E1451ED95B2D /* time_mosq.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = time_mosq.c; path = mosquitto/lib/time_mosq.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35E606E0E3E9113B3CF714A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4239AD4F77921800D5D05CB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		487883C3702772555633390B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4055213C320630B8D5582D /* CFNetwork.framework in Frameworks */,
+				9C3D9F911C6F79EFAF59A756 /* Foundation.framework in Frameworks */,
+				E8FD7FD41228C8B1F5F309E5 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A217107640E39FB0EDCE996F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA695A9F094FBE27027E64C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE1ECFDD1AA0B163CA61F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7B1E304044A3E77526EF48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E21FC9296EADD315B982A55 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3421392B9524045B51A2CD4E /* Info.plist */,
+				562F33F157A9E72818573EE9 /* Pods-mALS test-Moscapsule.modulemap */,
+				2EF78A8FF40F094A8AC61538 /* Pods-mALS test-Moscapsule.xcconfig */,
+				5E465DAB8758F4100EC42660 /* Pods-mALS test-Moscapsule-Private.xcconfig */,
+				56DD96744CBAFEDFD0C7F4EB /* Pods-mALS test-Moscapsule-dummy.m */,
+				EC1BEF0BC4D3A3CB8CF250D5 /* Pods-mALS test-Moscapsule-prefix.pch */,
+				63C1187D7F414B14392969BC /* Pods-mALS test-Moscapsule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-mALS test-Moscapsule";
+			sourceTree = "<group>";
+		};
+		14B5D0BAD5A46B8E5297814B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3556A364F6EF7008CEE2E30 /* libcrypto.a */,
+				1131C46037490DBB6195EDDC /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26E7B4778E3F76DDA72C5AEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84289D6F3F6D997A8D601747 /* Info.plist */,
+				5926C217E50F5B8B74CD81B4 /* Pods-mALS test-CocoaAsyncSocket.modulemap */,
+				8393833C36F86F52CC81CF6B /* Pods-mALS test-CocoaAsyncSocket.xcconfig */,
+				4B6DD9E350B76618EF3FBA93 /* Pods-mALS test-CocoaAsyncSocket-Private.xcconfig */,
+				BC24C3BA80A25F70A9CCC9C7 /* Pods-mALS test-CocoaAsyncSocket-dummy.m */,
+				AF4377EC829DEC5376CA32AA /* Pods-mALS test-CocoaAsyncSocket-prefix.pch */,
+				0CE27EFD58028DBEA32512C6 /* Pods-mALS test-CocoaAsyncSocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-mALS test-CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		71608F8746BBFFE3916FE2FD = {
+			isa = PBXGroup;
+			children = (
+				19B0B5BEBB31D526E4396BBE /* Podfile */,
+				7DC1CE071CBCA7695BCC6B76 /* Frameworks */,
+				E3B6068D384367B8F25CBE22 /* Pods */,
+				C884ED92C0FFE3ACF97D18DC /* Products */,
+				FB9EA43354171D100628E4CC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DC1CE071CBCA7695BCC6B76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEA8812FFFA55044746F9699 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5A37F2942A2A8CBFEF4899F /* OpenSSL-Universal */ = {
+			isa = PBXGroup;
+			children = (
+				B49D4464392955D68003396E /* aes.h */,
+				2A5A0407467BBAAECB13B75D /* asn1.h */,
+				2642177CD2BA3B391E1E5FB5 /* asn1_mac.h */,
+				069CC7D5F81EA583B19FB70E /* asn1t.h */,
+				E8726A611BAECABFB3409130 /* bio.h */,
+				AC07F5099F4ADBF8BD6C0BFE /* blowfish.h */,
+				65D2DECA91BCE9572638DBB0 /* bn.h */,
+				5CEBCE397B6B438691274E7B /* buffer.h */,
+				F2C32A8A1B00B5CE7A0E5BD1 /* camellia.h */,
+				BFD790BB70FC5ED2A8ADE581 /* cast.h */,
+				0010BFFC3208FD67CA1F5219 /* cmac.h */,
+				4378BFB99C8AF92370E38F70 /* cms.h */,
+				43F38250A27180A547522E0B /* comp.h */,
+				21408DB6939AFCF58515D8C4 /* conf.h */,
+				97451D26C31C24A89C97CBEA /* conf_api.h */,
+				6D95C4042AD10BAE8B632496 /* crypto.h */,
+				1E4FBE9141E0C4BFA5F75B5B /* des.h */,
+				664E0F14314884CE2806F62A /* des_old.h */,
+				F2CD950CF1BBE1DA1E2AE7C3 /* dh.h */,
+				B517D6C80ECAE8EF1133608D /* dsa.h */,
+				1BEFAB08D7FC7C32A9FBE7E7 /* dso.h */,
+				68559CCB5B1FF4F57C671BCC /* dtls1.h */,
+				2E92AAE227AB812C314BC85F /* e_os2.h */,
+				1ACAA784276D864980EF2480 /* ebcdic.h */,
+				7F0E5EFB9984BC10491C4D99 /* ec.h */,
+				376FC0491300E660B6099C3D /* ecdh.h */,
+				C891BA12E5B1F0E6088C6EA4 /* ecdsa.h */,
+				B4FAE721EC19D9FACE3BF1ED /* engine.h */,
+				903E537FE5DEA643DFE86D84 /* err.h */,
+				6A7A48221AAF35D3CB91D167 /* evp.h */,
+				8F820B6DB1CD34F58EDE7055 /* hmac.h */,
+				A08531E26F68BA1C8CAF73ED /* idea.h */,
+				56140DCF7EF99921318FA705 /* krb5_asn.h */,
+				1EBE59D46457519782952A8E /* kssl.h */,
+				43982519FE76BBB991261564 /* lhash.h */,
+				BD7BE6DD58CC14231DEE9028 /* md4.h */,
+				8E8746CE56EAAD0204533A10 /* md5.h */,
+				43D0C3F9FE52603335A3B0BF /* mdc2.h */,
+				8991E752629AFC4CEB74B092 /* modes.h */,
+				07F2E3E2AE97A6951532017B /* obj_mac.h */,
+				71488BDEDA9716C56BF323BA /* objects.h */,
+				394CEE2DBC7D63117300408E /* ocsp.h */,
+				300667B5FC06A7C542CFE097 /* opensslconf.h */,
+				82406442A4947B4A22650509 /* opensslv.h */,
+				4ECFE951B7D410D38C51D355 /* ossl_typ.h */,
+				0702BB6DE360140F977D4576 /* pem.h */,
+				AEFA11ECA0A8BD883C7D714F /* pem2.h */,
+				E74D364B725E5B5D4DB92632 /* pkcs12.h */,
+				1E9A39C22D6AF7DA40EF3E1C /* pkcs7.h */,
+				6EC27C5F43CE05B0DDDE29E5 /* pqueue.h */,
+				2724617AB9271677DE82272B /* rand.h */,
+				C322CFED8830D74BE6EA32A8 /* rc2.h */,
+				00BFB56945B57B14B5D9DFE5 /* rc4.h */,
+				A2A62E72DFF3946C2222F396 /* ripemd.h */,
+				86B1F665E94343B4535019BE /* rsa.h */,
+				7654CAA34F14E2DCA34AD09C /* safestack.h */,
+				3A3330FC201D66E16E312784 /* seed.h */,
+				8B3ADE55158781D86F5B886C /* sha.h */,
+				A38300293BC7EDD08D83FCB1 /* srp.h */,
+				05E840ECBA4D2C6B23E03E90 /* srtp.h */,
+				2C9A7E97AE76E4A224F4635A /* ssl.h */,
+				DF0B9E695FF782BA2999F854 /* ssl2.h */,
+				20BD48D6D20837E9486F0368 /* ssl23.h */,
+				7DC083291F24704AD74D1B63 /* ssl3.h */,
+				A246A84CF54F93562033939B /* stack.h */,
+				83DBCA4E603C78FE2BA3C575 /* symhacks.h */,
+				7B9C48D64A4174215DCE7A5A /* tls1.h */,
+				7888FE8B0AF21D6B1C0E334E /* ts.h */,
+				DCD8BFC3939AF3DEEF3386A0 /* txt_db.h */,
+				B4AAC7AF65B94726B102012A /* ui.h */,
+				87FEE7ABE4D7AA1F139454C4 /* ui_compat.h */,
+				14ADDE7754EEC2CC5B18DE78 /* whrlpool.h */,
+				E40C86CFDDF02EFC1B2931C5 /* x509.h */,
+				32E0788F8BF49242BC15E2B4 /* x509_vfy.h */,
+				3339950C7F116AB8DB1EF39C /* x509v3.h */,
+				14B5D0BAD5A46B8E5297814B /* Frameworks */,
+			);
+			path = "OpenSSL-Universal";
+			sourceTree = "<group>";
+		};
+		B4A9C7D997BD5CB57DE3732B /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				3ECEEE33F8AA0948FF1FC363 /* AsyncSocket.h */,
+				AFE072D17CA17A3D28887A2C /* AsyncSocket.m */,
+				B7BEEA3CE03349044226F0B2 /* AsyncUdpSocket.h */,
+				19B0F6A61FB68F5191D47229 /* AsyncUdpSocket.m */,
+				583BEE1864B6111CAA28E84D /* GCDAsyncSocket.h */,
+				D19522120DDBE588901AF7B0 /* GCDAsyncSocket.m */,
+				9C168BB45EA6D248254E3285 /* GCDAsyncUdpSocket.h */,
+				9C5ABE97FD1A8F18F41B9520 /* GCDAsyncUdpSocket.m */,
+				26E7B4778E3F76DDA72C5AEC /* Support Files */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		BA22C02EC077E1A2F9D8E2BB /* Pods-mALS test */ = {
+			isa = PBXGroup;
+			children = (
+				8B7082627C7E1E473ACEB705 /* Info.plist */,
+				D0A3038BBC1AC287756FA131 /* Pods-mALS test.modulemap */,
+				1067FDED093E35AF44DE4AC2 /* Pods-mALS test-acknowledgements.markdown */,
+				50BD21987A7FF8D5B73B6BC6 /* Pods-mALS test-acknowledgements.plist */,
+				BE9C76D5C07365F5733F4379 /* Pods-mALS test-dummy.m */,
+				BA5757DD32724BCEED918F8B /* Pods-mALS test-environment.h */,
+				DCEF57AAC57A7A2223B616DA /* Pods-mALS test-frameworks.sh */,
+				192F1DF92EA8A28A2F099133 /* Pods-mALS test-resources.sh */,
+				231C508C40E44CC321830001 /* Pods-mALS test-umbrella.h */,
+				9DED2DC759B48A7D8ADA0193 /* Pods-mALS test.debug.xcconfig */,
+				B3544E3A4DB72994BDF46BB0 /* Pods-mALS test.release.xcconfig */,
+			);
+			name = "Pods-mALS test";
+			path = "Target Support Files/Pods-mALS test";
+			sourceTree = "<group>";
+		};
+		BC8417C8849BC7B1ED48B863 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8116809B5F79256676E8D3BA /* Info.plist */,
+				1860006635284F6E77D91A07 /* Pods-mALS test-MSWeakTimer.modulemap */,
+				18950486F369F1D0ADB9DC31 /* Pods-mALS test-MSWeakTimer.xcconfig */,
+				75D45A245546CFD015F7473D /* Pods-mALS test-MSWeakTimer-Private.xcconfig */,
+				39EBAACC86E7BFF7E9C6256F /* Pods-mALS test-MSWeakTimer-dummy.m */,
+				D8725BB6463B3C57AFE967C7 /* Pods-mALS test-MSWeakTimer-prefix.pch */,
+				62DB767EA8C968703A33E46C /* Pods-mALS test-MSWeakTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-mALS test-MSWeakTimer";
+			sourceTree = "<group>";
+		};
+		BEA8812FFFA55044746F9699 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AB0234EDF96E81C956954169 /* CFNetwork.framework */,
+				B8DFA39BC3D956204B49085D /* Foundation.framework */,
+				399A0F16F209A8CCE87DB500 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C884ED92C0FFE3ACF97D18DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8738068B21DB42EB0D156958 /* CocoaAsyncSocket.framework */,
+				56DB27D100D792CEAC715CEC /* MSWeakTimer.framework */,
+				0FF901D091BE3A57B29EC87F /* Moscapsule.framework */,
+				86D20FF793300A65422B96EE /* Pods_mALS_test.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3B6068D384367B8F25CBE22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4A9C7D997BD5CB57DE3732B /* CocoaAsyncSocket */,
+				EADA741DC0836696BA451E26 /* MSWeakTimer */,
+				E81A86B7DBE10182F5CF5034 /* Moscapsule */,
+				A5A37F2942A2A8CBFEF4899F /* OpenSSL-Universal */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E81A86B7DBE10182F5CF5034 /* Moscapsule */ = {
+			isa = PBXGroup;
+			children = (
+				BD477C1A5A4280BA975B9998 /* Moscapsule.h */,
+				22F7C14A31253B4CA6C8DAE3 /* Moscapsule.swift */,
+				57D53E4A89E1661FFDB77D77 /* MosquittoCallbackBridge.h */,
+				CC7EAFFD8DFF7E452E5765FF /* MosquittoCallbackBridge.m */,
+				5FC90FD7B6493A18CD7CEBBB /* config.h */,
+				498BD03DBA970BFD02EEF4A4 /* dummypthread.h */,
+				863FC0EA33DA097390347DAE /* logging_mosq.c */,
+				71231C150ECAE86E5E0C5C98 /* logging_mosq.h */,
+				E3BB1289CEB7D40A96D3390F /* memory_mosq.c */,
+				7F188655B65F508ADF9921CD /* memory_mosq.h */,
+				A68035E0C80063071EB6EEC0 /* messages_mosq.c */,
+				322744A600565D236EA4FA23 /* messages_mosq.h */,
+				2D028DF95F52B46C7AD0FF3D /* mosquitto.c */,
+				7140597E9B078B0E8F636590 /* mosquitto.h */,
+				8A21728468C5DDE7CF7AA6CF /* mosquitto_internal.h */,
+				98B64F1F61F42CDEED57F572 /* mqtt3_protocol.h */,
+				3133ACE1B6D39235D5572AF1 /* net_mosq.c */,
+				1665D117F6AEBF1B04BD150C /* net_mosq.h */,
+				EFC7176FE10E7F268453660F /* read_handle.c */,
+				14DD2BD2627DF34EE24EFE5F /* read_handle.h */,
+				18BBD50C015D33227F33AF89 /* read_handle_client.c */,
+				250F94E1E0F2F35E41311281 /* read_handle_shared.c */,
+				96224B6862E8F997419ED1BC /* send_client_mosq.c */,
+				5D70BA835E838FF17717BF35 /* send_mosq.c */,
+				43A40F48C62F69E7EF1FE7A0 /* send_mosq.h */,
+				4D73696D89FDFFAC03EA2F18 /* socks_mosq.c */,
+				005DEBE6E3F3166BDFEEA828 /* socks_mosq.h */,
+				7C0727C32443C9BCE2E37B89 /* srv_mosq.c */,
+				D8CA867FE2732AA3A9D5FB94 /* thread_mosq.c */,
+				FE8DF4C1D1C7E1451ED95B2D /* time_mosq.c */,
+				6975B229CE4BD138A6441433 /* time_mosq.h */,
+				58CEB9DE8D672E07B97AEE96 /* tls_mosq.c */,
+				1FA6832DDB803E113335F63D /* tls_mosq.h */,
+				08E60E8B73FFB0A6EB8399B6 /* util_mosq.c */,
+				166B0239C7597988C8E0228C /* util_mosq.h */,
+				874F63FA6E65249A5667879E /* will_mosq.c */,
+				775B60564EB43923603012E5 /* will_mosq.h */,
+				0E21FC9296EADD315B982A55 /* Support Files */,
+			);
+			path = Moscapsule;
+			sourceTree = "<group>";
+		};
+		EADA741DC0836696BA451E26 /* MSWeakTimer */ = {
+			isa = PBXGroup;
+			children = (
+				A438AC724343052FBEADD11E /* MSWeakTimer.h */,
+				AAB01CD4DF5EF681B53EEC50 /* MSWeakTimer.m */,
+				BC8417C8849BC7B1ED48B863 /* Support Files */,
+			);
+			path = MSWeakTimer;
+			sourceTree = "<group>";
+		};
+		FB9EA43354171D100628E4CC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA22C02EC077E1A2F9D8E2BB /* Pods-mALS test */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02F08B1F1B171C08FAC74355 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4D97BEF0D1D2ADEE442A38 /* AsyncSocket.h in Headers */,
+				D4AEAB5BC3CF9FCBE9247233 /* AsyncUdpSocket.h in Headers */,
+				7863B9668A2A9052793EBF9B /* GCDAsyncSocket.h in Headers */,
+				61D0C3788BAE290344E443A1 /* GCDAsyncUdpSocket.h in Headers */,
+				6DA640DB7899E3DC097FB6F3 /* Pods-mALS test-CocoaAsyncSocket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49711F9CC820984BE32E773C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B3A332119F7E1720717CFC /* MSWeakTimer.h in Headers */,
+				B184533564854AF8DBCFBD59 /* Pods-mALS test-MSWeakTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CC0FEB07463C32F16C1224 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF171120DFD3528EA2D92F0 /* Moscapsule.h in Headers */,
+				3AB15F30335277C2BB066265 /* MosquittoCallbackBridge.h in Headers */,
+				EC979B48448BC91C1516623A /* Pods-mALS test-Moscapsule-umbrella.h in Headers */,
+				0720501FC6231527E37CFE5F /* config.h in Headers */,
+				876454047522BD0BA734250B /* dummypthread.h in Headers */,
+				B2BF0FB6407DDE77697A2C74 /* logging_mosq.h in Headers */,
+				9D102E8778AF440CE6DFCA13 /* memory_mosq.h in Headers */,
+				B5286CBB061E14B4D9890EE8 /* messages_mosq.h in Headers */,
+				6B4F2F11BE237CEF90F364F0 /* mosquitto.h in Headers */,
+				B48CBFD1F5AEE03B3921A8F9 /* mosquitto_internal.h in Headers */,
+				8A44E79900DC0295F9FE00B7 /* mqtt3_protocol.h in Headers */,
+				4B4D24420493E10889DA54CD /* net_mosq.h in Headers */,
+				91B5CA1C2C27D8A249A24B24 /* read_handle.h in Headers */,
+				57963A83AC493213B3995972 /* send_mosq.h in Headers */,
+				59FDD195C503B027BAD067F4 /* socks_mosq.h in Headers */,
+				C8B734CCFFC1751533E776E9 /* time_mosq.h in Headers */,
+				B3C914EF573684DD4B3C968C /* tls_mosq.h in Headers */,
+				DE19B6F783D92831A0910E42 /* util_mosq.h in Headers */,
+				33B8E7FDC27651FC8BCA0018 /* will_mosq.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB03FCEF160D88981C3B338 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC8936D51E05D3BBF236C68 /* Pods-mALS test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A4E9BD536D95F1C6192EE0A3 /* Pods-mALS test-CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E384CF3C08943565B3BA576A /* Build configuration list for PBXNativeTarget "Pods-mALS test-CocoaAsyncSocket" */;
+			buildPhases = (
+				AB55AE1D5B7A3EB831291E01 /* Sources */,
+				487883C3702772555633390B /* Frameworks */,
+				02F08B1F1B171C08FAC74355 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-mALS test-CocoaAsyncSocket";
+			productName = "Pods-mALS test-CocoaAsyncSocket";
+			productReference = 8738068B21DB42EB0D156958 /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D80D1F57397DBD8C56A25118 /* Pods-mALS test-MSWeakTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8ED708E0637B27E6E3F2132 /* Build configuration list for PBXNativeTarget "Pods-mALS test-MSWeakTimer" */;
+			buildPhases = (
+				0B5F28603840870A2FC58FA7 /* Sources */,
+				35E606E0E3E9113B3CF714A7 /* Frameworks */,
+				49711F9CC820984BE32E773C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-mALS test-MSWeakTimer";
+			productName = "Pods-mALS test-MSWeakTimer";
+			productReference = 56DB27D100D792CEAC715CEC /* MSWeakTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEC8F59BD8F25C0B7626FCD3 /* Pods-mALS test-Moscapsule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B76767AD6EC3960F628EF66B /* Build configuration list for PBXNativeTarget "Pods-mALS test-Moscapsule" */;
+			buildPhases = (
+				B968896D4C633E0C2A3D5D59 /* Sources */,
+				A217107640E39FB0EDCE996F /* Frameworks */,
+				53CC0FEB07463C32F16C1224 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-mALS test-Moscapsule";
+			productName = "Pods-mALS test-Moscapsule";
+			productReference = 0FF901D091BE3A57B29EC87F /* Moscapsule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F35B2C5910996D675BCBF373 /* Pods-mALS test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64DD5A4EB2257B1FABC03B15 /* Build configuration list for PBXNativeTarget "Pods-mALS test" */;
+			buildPhases = (
+				62192069B81BD83CC5A9A061 /* Sources */,
+				BCE1ECFDD1AA0B163CA61F83 /* Frameworks */,
+				8DB03FCEF160D88981C3B338 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4DC69333E65AFA0A58C623 /* PBXTargetDependency */,
+				59C9C422CB95DB835C6BA8F8 /* PBXTargetDependency */,
+				E138D17CB2BE1F03EA34CEED /* PBXTargetDependency */,
+			);
+			name = "Pods-mALS test";
+			productName = "Pods-mALS test";
+			productReference = 86D20FF793300A65422B96EE /* Pods_mALS_test.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		811F71BD3B8C6E2679D0BE56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0640;
+				TargetAttributes = {
+					F35B2C5910996D675BCBF373 = {
+						DevelopmentTeam = JWNSA87WMD;
+					};
+				};
+			};
+			buildConfigurationList = 36E191C9F78C66682F13C8E9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 71608F8746BBFFE3916FE2FD;
+			productRefGroup = C884ED92C0FFE3ACF97D18DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F35B2C5910996D675BCBF373 /* Pods-mALS test */,
+				A4E9BD536D95F1C6192EE0A3 /* Pods-mALS test-CocoaAsyncSocket */,
+				D80D1F57397DBD8C56A25118 /* Pods-mALS test-MSWeakTimer */,
+				EEC8F59BD8F25C0B7626FCD3 /* Pods-mALS test-Moscapsule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B5F28603840870A2FC58FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D00BA9DC16B93996F048E /* MSWeakTimer.m in Sources */,
+				03F71BAB8EA347A78AB60CF9 /* Pods-mALS test-MSWeakTimer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62192069B81BD83CC5A9A061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EC4647974435ACE20CFB41 /* Pods-mALS test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB55AE1D5B7A3EB831291E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7DBFF29FC720337DDAB033 /* AsyncSocket.m in Sources */,
+				36299F14A95F27D90AD68AAE /* AsyncUdpSocket.m in Sources */,
+				311564BD51FB56F11A5F3F10 /* GCDAsyncSocket.m in Sources */,
+				0F7613022C1A5A950F719C78 /* GCDAsyncUdpSocket.m in Sources */,
+				A5F396956A7EA63E9072B9C1 /* Pods-mALS test-CocoaAsyncSocket-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B968896D4C633E0C2A3D5D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04519E45CEC710329F5E6A6E /* Moscapsule.swift in Sources */,
+				E8517828E9108EA34F4DE6B3 /* MosquittoCallbackBridge.m in Sources */,
+				26385DEE17BCA8D2965CEDED /* Pods-mALS test-Moscapsule-dummy.m in Sources */,
+				13B3E22CBE95226CFD07CB61 /* logging_mosq.c in Sources */,
+				7240F811B306EED6A1DB916C /* memory_mosq.c in Sources */,
+				4BD1A8DC8EBE7F2BE7FC8171 /* messages_mosq.c in Sources */,
+				E7BC31207131662D5AE432E0 /* mosquitto.c in Sources */,
+				2C2C2C9DDB4FD1FC63E97F78 /* net_mosq.c in Sources */,
+				5CE3619094252E2BAFD9A968 /* read_handle.c in Sources */,
+				1ECCEC37B98895AF8C19C226 /* read_handle_client.c in Sources */,
+				AFFEB52098E98C07D590F9F1 /* read_handle_shared.c in Sources */,
+				31481655D147D1EE92524A41 /* send_client_mosq.c in Sources */,
+				D8017D5C2FA7E96ABC98A422 /* send_mosq.c in Sources */,
+				DC4F5564ABB35700B414CF4F /* socks_mosq.c in Sources */,
+				6DA0D9C045C9B5D867C4DB9C /* srv_mosq.c in Sources */,
+				01E583D991B4BD8F7468F2FE /* thread_mosq.c in Sources */,
+				FC4A0D2C7D9178BA7D844AFB /* time_mosq.c in Sources */,
+				94C0AE5E097C3ADCB7DF1FBD /* tls_mosq.c in Sources */,
+				528CE0EAD3B82E4182FE1376 /* util_mosq.c in Sources */,
+				21E906F6235ECF9CF032DD73 /* will_mosq.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59C9C422CB95DB835C6BA8F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-mALS test-MSWeakTimer";
+			target = D80D1F57397DBD8C56A25118 /* Pods-mALS test-MSWeakTimer */;
+			targetProxy = 1F5A55CE9C9AEA12022584E7 /* PBXContainerItemProxy */;
+		};
+		E138D17CB2BE1F03EA34CEED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-mALS test-Moscapsule";
+			target = EEC8F59BD8F25C0B7626FCD3 /* Pods-mALS test-Moscapsule */;
+			targetProxy = 329E2877176FC84DEEE7EB3C /* PBXContainerItemProxy */;
+		};
+		ED4DC69333E65AFA0A58C623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-mALS test-CocoaAsyncSocket";
+			target = A4E9BD536D95F1C6192EE0A3 /* Pods-mALS test-CocoaAsyncSocket */;
+			targetProxy = B57AD7F939A9BB9EC71E8D5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37C9F9330E58C9957087802C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E465DAB8758F4100EC42660 /* Pods-mALS test-Moscapsule-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-mALS test-Moscapsule/Pods-mALS test-Moscapsule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-mALS test-Moscapsule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-mALS test-Moscapsule/Pods-mALS test-Moscapsule.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Moscapsule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D3DC2F0BBF631188EC35EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		874E5F49F8A7F39637AB0526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6DD9E350B76618EF3FBA93 /* Pods-mALS test-CocoaAsyncSocket-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-mALS test-CocoaAsyncSocket/Pods-mALS test-CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-mALS test-CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-mALS test-CocoaAsyncSocket/Pods-mALS test-CocoaAsyncSocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0247B83C78F371420290894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D45A245546CFD015F7473D /* Pods-mALS test-MSWeakTimer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-mALS test-MSWeakTimer/Pods-mALS test-MSWeakTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-mALS test-MSWeakTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-mALS test-MSWeakTimer/Pods-mALS test-MSWeakTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MSWeakTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B11A283836DA40B387826E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6DD9E350B76618EF3FBA93 /* Pods-mALS test-CocoaAsyncSocket-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-mALS test-CocoaAsyncSocket/Pods-mALS test-CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-mALS test-CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-mALS test-CocoaAsyncSocket/Pods-mALS test-CocoaAsyncSocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8CB54CA0DF4B3A0683C1889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3544E3A4DB72994BDF46BB0 /* Pods-mALS test.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-mALS test/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-mALS test/Pods-mALS test.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_mALS_test;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE4470D0EA9F5729E305EAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E0FD0ED100071CC19893ABDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DED2DC759B48A7D8ADA0193 /* Pods-mALS test.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-mALS test/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-mALS test/Pods-mALS test.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_mALS_test;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4B543D3D528EC67E763E655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E465DAB8758F4100EC42660 /* Pods-mALS test-Moscapsule-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-mALS test-Moscapsule/Pods-mALS test-Moscapsule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-mALS test-Moscapsule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-mALS test-Moscapsule/Pods-mALS test-Moscapsule.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Moscapsule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4B58E5FA2593E8EA8019A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D45A245546CFD015F7473D /* Pods-mALS test-MSWeakTimer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-mALS test-MSWeakTimer/Pods-mALS test-MSWeakTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-mALS test-MSWeakTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-mALS test-MSWeakTimer/Pods-mALS test-MSWeakTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MSWeakTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36E191C9F78C66682F13C8E9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4470D0EA9F5729E305EAB7 /* Debug */,
+				6D3DC2F0BBF631188EC35EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64DD5A4EB2257B1FABC03B15 /* Build configuration list for PBXNativeTarget "Pods-mALS test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0FD0ED100071CC19893ABDC /* Debug */,
+				C8CB54CA0DF4B3A0683C1889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76767AD6EC3960F628EF66B /* Build configuration list for PBXNativeTarget "Pods-mALS test-Moscapsule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C9F9330E58C9957087802C /* Debug */,
+				F4B543D3D528EC67E763E655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E384CF3C08943565B3BA576A /* Build configuration list for PBXNativeTarget "Pods-mALS test-CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874E5F49F8A7F39637AB0526 /* Debug */,
+				B11A283836DA40B387826E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8ED708E0637B27E6E3F2132 /* Build configuration list for PBXNativeTarget "Pods-mALS test-MSWeakTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0247B83C78F371420290894 /* Debug */,
+				F4B58E5FA2593E8EA8019A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 811F71BD3B8C6E2679D0BE56 /* Project object */;
+}

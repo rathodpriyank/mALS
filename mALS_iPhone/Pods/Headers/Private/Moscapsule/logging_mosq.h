@@ -1,0 +1,1 @@
+link ../../../Moscapsule/mosquitto/lib/logging_mosq.h

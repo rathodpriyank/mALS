@@ -1,0 +1,1 @@
+link ../../../MSWeakTimer/MSWeakTimer.h

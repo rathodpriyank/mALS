@@ -1,0 +1,1 @@
+"./ADXL345.obj" "./additionalFiles.obj" "./button_if.obj" "./gpio_if.obj" "./i2c_if.obj" "./main.obj" "./network_if.obj" "./pinmux.obj" "./server_client_cbs.obj" "./simpleLinkExtra.obj" "./startup_ccs.obj" "./timer_if.obj" "./uart_if.obj" "../cc3200v1p32.cmd" -l"libc.a" -lmqtt.a -lfree_rtos.a -lsimplelink.a -ldriverlib.a 
